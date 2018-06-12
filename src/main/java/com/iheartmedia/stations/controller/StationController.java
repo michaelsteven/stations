@@ -70,7 +70,7 @@ public interface StationController {
      * @param hdEnabled - (Optional) Boolean (boxed/nullable) true if the station is HD enabled  
      * @param offset int - (Optional) for use with pagenation. Default is 0.
      * @param limit  int - (Optional) for use with pagenation. Default is 10
-     * @return Page<Station> of results.
+     * @return Page of object Station containing results.
      * 
      * TODO: Implement sorting
      */

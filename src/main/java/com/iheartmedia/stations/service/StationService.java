@@ -35,7 +35,7 @@ public interface StationService {
      * @param hdEnabled -  (Nullable) Boolean (boxed) true if the station is HD enabled  
      * @param offset int - for use with pagenation.
      * @param limit  int - for use with pagenation.
-     * @return Page<Station> of results.
+     * @return Page of object Station containing results.
      */
 	public abstract Page<Station> getAllStations(String name, String stationId, Boolean hdEnabled, int offset, int limit);
 
