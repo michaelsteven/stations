@@ -1,0 +1,15 @@
+---
+
+spring:
+  profiles: default
+  application:
+    name: stations
+  datasource:
+    username: sa
+    password: 
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    
+---

@@ -1,0 +1,19 @@
+server:
+  port: 80
+  
+management:
+  server:
+    port: 9001
+  security: 
+    enabled: false
+  endpoints:
+    web: 
+      exposure:
+        include: "*"
+    base-path: /actuator
+
+logging:
+  level:
+    root: INFO
+    com.iheartmedia.stations: TRACE
+  file: /var/log/stations.log
